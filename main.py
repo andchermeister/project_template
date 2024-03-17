@@ -15,8 +15,7 @@ def main():
 
     # File input with pandas
     file_pandas = read_from_file_pandas('data/file_for_pandas.csv')
-    output_to_console('data/file_for_pandas.csv')
-    write_to_file_original('data/console_output_3.txt', file_pandas)
+    output_to_console(file_pandas)
 
 
 if __name__ == "__main__":
